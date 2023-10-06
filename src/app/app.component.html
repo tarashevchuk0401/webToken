@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <aside>
+    <a routerLink="authorization">Authorization</a>
+    <a routerLink="home">Home</a>
+    <a routerLink="post">Post</a>
+    <a routerLink="iban">iban</a>
+    <a *ngIf="isAuthenticated" (click)="logOut()" >Log Out</a>
+  </aside>
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(56, 56, 234);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+input {
+    border: none;
+    background-color: rgb(210, 210, 210);
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}

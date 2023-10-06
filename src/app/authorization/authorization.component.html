@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <form #authForm="ngForm">
+        <input type="text" name="email" email ngModel placeholder="email" required>
+        <input type="password" name="password" password ngModel placeholder="password" required>
+        <button (click)="logIn(authForm)" >Log In</button>
+        <button (click)="signUp(authForm)">Sign Up</button>
+    </form>
+</div>
